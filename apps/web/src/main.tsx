@@ -10,7 +10,7 @@ console.log("Hub v1.0.3 - Cache Bust")
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename="/app">
+    <BrowserRouter>
       <DemoProvider>
         <App />
       </DemoProvider>
