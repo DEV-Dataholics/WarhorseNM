@@ -63,7 +63,7 @@ export const OrdenTrabajoModal: React.FC<Props> = ({ ot, abierto, alCerrar }) =>
     doc.setFont('helvetica', 'bold')
     doc.setFontSize(14)
     doc.setTextColor(22, 25, 30)
-    doc.text('WARHORSE MÉXICO - TALLER MECÁNICO Y MANTENIMIENTO', 14, 15)
+    doc.text('WARHORSE UNITED STATES - TALLER MECÁNICO Y MANTENIMIENTO', 14, 15)
 
     doc.setFontSize(12)
     doc.setTextColor(180, 67, 10)

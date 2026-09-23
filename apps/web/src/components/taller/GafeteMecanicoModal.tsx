@@ -87,7 +87,7 @@ export const GafeteMecanicoModal: React.FC<Props> = ({ mecanico, abierto, alCerr
     doc.setTextColor(255, 255, 255)
     doc.setFont('helvetica', 'bold')
     doc.setFontSize(11)
-    doc.text('WARHORSE MÉXICO', 42.8, 12, { align: 'center' })
+    doc.text('WARHORSE UNITED STATES', 42.8, 12, { align: 'center' })
 
     doc.setFontSize(7)
     doc.setTextColor(197, 160, 89)
@@ -178,7 +178,7 @@ export const GafeteMecanicoModal: React.FC<Props> = ({ mecanico, abierto, alCerr
             <div className="flex items-center justify-between border-b border-[rgba(243,239,231,0.1)] pb-3 mb-4">
               <div className="text-left">
                 <span className="font-['Barlow_Condensed'] text-sm font-black tracking-widest text-white uppercase block">
-                  WARHORSE MÉXICO
+                  WARHORSE UNITED STATES
                 </span>
                 <span className="font-['Barlow_Condensed'] text-[9px] font-bold tracking-wider text-[#C5A059] uppercase block">
                   Acreditación de Taller

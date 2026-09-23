@@ -176,7 +176,7 @@ export const Login: React.FC = () => {
                   WARHORSE
                 </span>
                 <span className="rounded bg-[#F2620F] px-2 py-0.5 font-['Barlow_Condensed'] text-xs font-black uppercase tracking-wider text-[#16191E]">
-                  MÉXICO
+                  UNITED STATES
                 </span>
               </div>
               <p className="font-['Barlow_Condensed'] text-xs font-semibold tracking-wider text-[#C5A059]">
@@ -224,7 +224,7 @@ export const Login: React.FC = () => {
         {/* Footer */}
         <div className="relative z-10 mt-6 flex items-center justify-between text-xs text-[#B8B2A6]">
           <div>
-            Entorno: <span className="text-[#3FA65C] font-semibold">{import.meta.env.PROD ? 'Producción (Cloud)' : 'Laragon Local (127.0.0.1)'}</span> {import.meta.env.PROD ? '· warhorse_prod' : '· warhorse_db'}
+            Entorno: <span className="text-[#3FA65C] font-semibold">{import.meta.env.PROD ? 'Producción (Cloud)' : 'Laragon Local (127.0.0.1)'}</span> {import.meta.env.PROD ? '· noodluis_warhorsenm' : '· warhorsenm_db'}
           </div>
         </div>
       </div>
@@ -244,7 +244,7 @@ export const Login: React.FC = () => {
                 WARHORSE
               </span>
               <span className="rounded bg-[#F2620F] px-1.5 py-0.5 font-['Barlow_Condensed'] text-[10px] font-black uppercase text-[#16191E]">
-                MÉXICO
+                UNITED STATES
               </span>
             </div>
           </div>

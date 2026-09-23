@@ -82,7 +82,7 @@ export const AppNavbar: React.FC = () => {
                 WARHORSE
               </span>
               <span className="hidden rounded bg-[#C5A059]/20 px-1.5 py-0.5 font-['Barlow_Condensed'] text-[11px] font-semibold uppercase tracking-wider text-[#C5A059] sm:inline-block">
-                MÉXICO
+                UNITED STATES
               </span>
             </div>
             <p className="hidden text-[10px] tracking-tight text-[#B8B2A6] md:block">

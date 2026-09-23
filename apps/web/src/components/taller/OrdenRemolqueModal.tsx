@@ -60,7 +60,7 @@ export const OrdenRemolqueModal: React.FC<Props> = ({ ot, abierto, alCerrar }) =
     doc.setFont('helvetica', 'bold')
     doc.setFontSize(13)
     doc.setTextColor(22, 25, 30)
-    doc.text('WARHORSE MÉXICO - CONTROL DE TALLER DE REMOLQUES', 14, 14)
+    doc.text('WARHORSE UNITED STATES - CONTROL DE TALLER DE REMOLQUES', 14, 14)
 
     doc.setFontSize(11)
     doc.setTextColor(180, 67, 10)

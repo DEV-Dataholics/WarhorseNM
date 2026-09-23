@@ -51,7 +51,7 @@ export const OrdenCompraModal: React.FC<Props> = ({ oc, abierto, alCerrar }) => 
     const doc = new jsPDF()
     doc.setFont('helvetica', 'bold')
     doc.setFontSize(18)
-    doc.text('WARHORSE MÉXICO', 14, 20)
+    doc.text('WARHORSE UNITED STATES', 14, 20)
     doc.setFontSize(10)
     doc.setFont('helvetica', 'normal')
     doc.text('ORDEN DE COMPRA OFICIAL (OC)', 14, 26)

@@ -53,7 +53,7 @@ export const ReporteEjecutivoModal: React.FC<Props> = ({ reporte, abierto, alCer
     const doc = new jsPDF()
     doc.setFont('helvetica', 'bold')
     doc.setFontSize(18)
-    doc.text('WARHORSE MÉXICO', 14, 20)
+    doc.text('WARHORSE UNITED STATES', 14, 20)
     doc.setFontSize(10)
     doc.setFont('helvetica', 'normal')
     doc.text('REPORTE EJECUTIVO DE SALUD DE FLOTA Y COSTO TOTAL (TCO)', 14, 26)

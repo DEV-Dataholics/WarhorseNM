@@ -37,7 +37,7 @@ export const RequisicionCompraModal: React.FC<Props> = ({ requisicion, abierto, 
     const doc = new jsPDF()
     doc.setFont('helvetica', 'bold')
     doc.setFontSize(18)
-    doc.text('WARHORSE MÉXICO', 14, 20)
+    doc.text('WARHORSE UNITED STATES', 14, 20)
     doc.setFontSize(10)
     doc.setFont('helvetica', 'normal')
     doc.text('FORMATO OFICIAL DE REQUISICIÓN DE COMPRA', 14, 26)
