@@ -14,7 +14,7 @@ import {
 } from 'lucide-react'
 import { useAuthStore } from '../../store/useAuthStore'
 import { useUiStore } from '../../store/useUiStore'
-import logoWarhorse from '../../assets/Logo.png'
+import logoWarhorse from '../../assets/logo.png'
 
 export const AppNavbar: React.FC = () => {
   const { usuario, cerrarSesion,  } = useAuthStore()
