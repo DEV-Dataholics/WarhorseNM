@@ -2,8 +2,8 @@ import ftplib
 import os
 
 server = 'ftp.dataholics.com.mx'
-user = 'DEV_warhorse@warhorse.dataholics.com.mx'
-password = '2k@r~mD5K.Y?'
+user = 'dev-WNM@warhorsenm.dataholics.com.mx'
+password = 'UILHDA=iDiaJ'
 
 ftp = ftplib.FTP()
 ftp.connect(server, 21, timeout=30)

@@ -3,8 +3,15 @@ import sys
 import ftplib
 
 FTP_SERVER = os.getenv("FTP_SERVER", "ftp.dataholics.com.mx")
-FTP_USERNAME = os.getenv("FTP_USERNAME", "DEV_warhorse@warhorse.dataholics.com.mx")
-FTP_PASSWORD = os.getenv("FTP_PASSWORD", "2k@r~mD5K.Y?")
+FTP_USERNAME = os.getenv("FTP_USERNAME", "dev-WNM@warhorsenm.dataholics.com.mx")
+FTP_PASSWORD = os.getenv("FTP_PASSWORD", "UILHDA=iDiaJ")
+
+# HARD GUARDRAIL: Strict Project Isolation
+if "warhorsenm" not in FTP_USERNAME.lower() and "dev-wnm" not in FTP_USERNAME.lower():
+    raise SystemExit(
+        f"FATAL SECURITY VIOLATION: WarhorseNM attempted to deploy using unauthorized FTP account '{FTP_USERNAME}'! "
+        f"WarhorseNM is strictly isolated to 'dev-WNM@warhorsenm.dataholics.com.mx'. Deployment aborted immediately."
+    )
 
 def ensure_remote_dir(ftp, remote_dir):
     """Ensures a remote directory exists by creating nested parts if necessary."""

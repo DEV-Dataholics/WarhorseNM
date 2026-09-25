@@ -2,8 +2,8 @@ import ftplib
 
 def upload_env_only():
     server = 'ftp.dataholics.com.mx'
-    user = 'DEV_warhorse@warhorse.dataholics.com.mx'
-    password = '2k@r~mD5K.Y?'
+    user = 'dev-WNM@warhorsenm.dataholics.com.mx'
+    password = 'UILHDA=iDiaJ'
     
     print("Uploading ONLY warhorse_app/.env ...")
     ftp = ftplib.FTP()

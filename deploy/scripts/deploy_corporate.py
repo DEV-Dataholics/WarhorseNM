@@ -27,8 +27,8 @@ def upload_directory(ftp, local_dir, remote_dir):
 
 def main():
     server = 'ftp.dataholics.com.mx'
-    user = 'DEV_warhorse@warhorse.dataholics.com.mx'
-    password = '2k@r~mD5K.Y?'
+    user = 'dev-WNM@warhorsenm.dataholics.com.mx'
+    password = 'UILHDA=iDiaJ'
     
     print("Connecting to FTP...")
     ftp = ftplib.FTP()

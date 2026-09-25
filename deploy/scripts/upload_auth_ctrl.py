@@ -2,8 +2,8 @@ import ftplib
 
 def upload_auth_controller():
     server = 'ftp.dataholics.com.mx'
-    user = 'DEV_warhorse@warhorse.dataholics.com.mx'
-    password = '2k@r~mD5K.Y?'
+    user = 'dev-WNM@warhorsenm.dataholics.com.mx'
+    password = 'UILHDA=iDiaJ'
     
     print("Uploading AuthController.php ...")
     ftp = ftplib.FTP()

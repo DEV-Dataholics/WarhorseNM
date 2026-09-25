@@ -1,10 +1,10 @@
-# Despliegue de Warhorse en Site5 (hosting compartido)
+# Despliegue de WarhorseNM en Site5 (Production)
 
 > [!IMPORTANT]
-> **ÚLTIMA VERSIÓN PUBLICADA Y ACTIVA EN PRODUCCIÓN (`REVIEW7-21`)**: 
-> Esta guía corresponde a la rama `REVIEW7-21` (Sprint 6 Upgrades) publicada y activa en producción (`https://warhorse.dataholics.com.mx/`).
+> **ENTORNO DE PRODUCCIÓN ACTIVO**: 
+> Este playbook corresponde al proyecto **WarhorseNM** (New Mexico / United States) en el dominio `https://warhorsenm.dataholics.com.mx/`.
 
-Dominio temporal: **https://warhorse.dataholics.com.mx/**
+Dominio: **https://warhorsenm.dataholics.com.mx/**
 
 El proyecto son dos piezas que van al **mismo dominio**: el SPA (React, ya
 compilado) y la API (CodeIgniter 4). El SPA pide siempre `/api/v1/...` sobre el

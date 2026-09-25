@@ -2,8 +2,8 @@ import ftplib
 
 def upload_htaccess_and_env():
     server = 'ftp.dataholics.com.mx'
-    user = 'DEV_warhorse@warhorse.dataholics.com.mx'
-    password = '2k@r~mD5K.Y?'
+    user = 'dev-WNM@warhorsenm.dataholics.com.mx'
+    password = 'UILHDA=iDiaJ'
     
     print("Uploading .htaccess and .env ...")
     ftp = ftplib.FTP()

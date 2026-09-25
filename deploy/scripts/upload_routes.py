@@ -2,8 +2,8 @@ import ftplib
 
 def upload_routes():
     server = 'ftp.dataholics.com.mx'
-    user = 'DEV_warhorse@warhorse.dataholics.com.mx'
-    password = '2k@r~mD5K.Y?'
+    user = 'dev-WNM@warhorsenm.dataholics.com.mx'
+    password = 'UILHDA=iDiaJ'
     
     print("Uploading Routes.php to warhorse_app/app/Config/ ...")
     ftp = ftplib.FTP()

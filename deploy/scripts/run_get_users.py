@@ -4,8 +4,8 @@ import urllib.error
 import ssl
 
 def main():
-    server = 'warhorse.dataholics.com.mx'
-    user = 'warhorse_ftp@warhorse.dataholics.com.mx'
+    server = 'warhorsenm.dataholics.com.mx'
+    user = 'warhorse_ftp@warhorsenm.dataholics.com.mx'
     password = 'Warhorse2026!ftp'
 
     print("Connecting to FTP...")
@@ -23,7 +23,7 @@ def main():
     ftp.quit()
     
     print("Triggering get_users.php over HTTPS...")
-    url = "https://warhorse.dataholics.com.mx/get_users.php"
+    url = "https://warhorsenm.dataholics.com.mx/get_users.php"
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
         # ignore ssl errors if any

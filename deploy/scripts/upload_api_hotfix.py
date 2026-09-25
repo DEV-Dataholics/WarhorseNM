@@ -2,7 +2,7 @@ import os
 import ftplib
 import sys
 
-ftp_host = "warhorse.dataholics.com.mx"
+ftp_host = "warhorsenm.dataholics.com.mx"
 ftp_user = "c89487_warh_d"
 ftp_pass = "D1m4c1r4!"
 

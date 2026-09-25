@@ -43,5 +43,5 @@ jobs:
 
       - name: 🩺 Smoke Test & Health Check
         run: |
-          curl -I -s -f "https://warhorse.dataholics.com.mx/" || echo "Web root check"
-          curl -I -s "https://warhorse.dataholics.com.mx/api/v1/auth/me" | grep -E "HTTP/.* (401|200)" || true
+          curl -I -s -f "https://warhorsenm.dataholics.com.mx/" || echo "Web root check"
+          curl -I -s "https://warhorsenm.dataholics.com.mx/api/v1/auth/me" | grep -E "HTTP/.* (401|200)" || true

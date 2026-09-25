@@ -2,8 +2,8 @@ import ftplib
 
 def download_live_routes():
     server = 'ftp.dataholics.com.mx'
-    user = 'DEV_warhorse@warhorse.dataholics.com.mx'
-    password = '2k@r~mD5K.Y?'
+    user = 'dev-WNM@warhorsenm.dataholics.com.mx'
+    password = 'UILHDA=iDiaJ'
     
     print("Downloading live files from warhorse_app ...")
     ftp = ftplib.FTP()
