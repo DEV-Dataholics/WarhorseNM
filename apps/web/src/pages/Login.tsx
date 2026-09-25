@@ -17,7 +17,7 @@ import {
 import { useAuthStore } from '../store/useAuthStore'
 import { useUiStore } from '../store/useUiStore'
 import { ApiError } from '../lib/api'
-import logoWarhorse from '../assets/Logo.png'
+import logoWarhorse from '../assets/logo.png'
 import truckHero from '../assets/warhorse-truck.jpg'
 import { QrScannerModal } from '../components/patio/QrScannerModal'
 
