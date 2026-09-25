@@ -224,7 +224,7 @@ export const Login: React.FC = () => {
         {/* Footer */}
         <div className="relative z-10 mt-6 flex items-center justify-between text-xs text-[#B8B2A6]">
           <div>
-            Entorno: <span className="text-[#3FA65C] font-semibold">{import.meta.env.PROD ? 'Producción (Cloud)' : 'Laragon Local (127.0.0.1)'}</span> {import.meta.env.PROD ? '· noodluis_warhorsenm' : '· warhorsenm_db'}
+            Entorno: <span className="text-[#3FA65C] font-semibold">{import.meta.env.PROD ? 'Producción (Cloud)' : 'Laragon Local (127.0.0.1)'}</span> <span className="inline-flex items-center gap-1.5 text-emerald-400 font-medium ml-2"><span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></span> Conectado</span>
           </div>
         </div>
       </div>
